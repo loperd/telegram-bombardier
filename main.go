@@ -267,7 +267,7 @@ func run(ctx context.Context) error {
 		}
 		return nil
 	})
-}X
+}
 
 func main() {
 	ctx, cancel := signal.NotifyContext(context.Background(), os.Interrupt)
